@@ -254,3 +254,9 @@ justify-content: center;
   background-color: #1a1a1a
 }
 
+.btn-secondary{
+  color: white;
+  background-color: #1a1a1a;
+  border: solid 1px white !important;
+}
+
