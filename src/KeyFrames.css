@@ -1,0 +1,169 @@
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes reverseRotate {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes click {
+
+    0% {
+        transform: scale(1.2) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(7) rotate(90deg);
+    }
+
+}
+
+@keyframes slide {
+
+    0% {
+        right: 0;
+        left: 100%;
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        right: 100%;
+        left: -200px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes flick {
+    0% {
+        opacity: 1;
+        text-shadow: 1px 1px 20px white;
+    }
+
+    50%{
+        opacity: 0.9;
+    }
+
+    100%{
+        opacity: 1;
+        text-shadow: 1px 1px 20px white;
+    }
+
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    
+    0%{
+        transform: translateX(0%);
+    }
+
+    50%{
+        transform: translateX(50%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        right: 100%;
+        left: -200px;
+    }
+
+    100% {
+        left: 100%;
+        right: -200px;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes DecreaseSize {
+    
+    0% {
+        height: 900px;
+    }
+
+    100% {
+        opacity: 400px;
+    }
+
+}
+
+@keyframes IncreaseAndFade {
+    0% {
+        font-size: 4rem;
+        opacity: 1;
+    }
+
+    100% {
+        font-size: 20rem;
+        opacity: 0
+    }
+}

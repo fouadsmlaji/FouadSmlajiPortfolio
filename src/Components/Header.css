@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 10;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerList li {
+    color: white;
+    list-style: none;
+    font-size: 1.2rem;
+    animation: flick 0.10s infinite;
+}
+
+@keyframes flick {
+    0% {
+        opacity: 1;
+        text-shadow: 1px 1px 20px white;
+    }
+
+    50%{
+        opacity: 0.9;
+    }
+
+    100%{
+        opacity: 1;
+        text-shadow: 1px 1px 20px white;
+    }
+
+}

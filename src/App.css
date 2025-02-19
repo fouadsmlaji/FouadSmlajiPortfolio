@@ -1,0 +1,11 @@
+body,
+#root{
+
+ width: 100%;
+ font-family: "Poppins", serif;
+}
+
+.container{
+  max-width: 1350px;
+}
+

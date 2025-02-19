@@ -1,0 +1,533 @@
+/* Mobile Phones in Vertical mode */
+
+@media screen and (max-width: 480px) {
+  body {
+    min-height: 0;
+  }
+
+  /* Home Page Section */
+  .homePageSection {
+    height: 90vh;
+  }
+
+  .titleDiv {
+    flex-direction: column !important;
+    justify-content: center;
+    width: 100%;
+    gap: 150px;
+    text-align: center;
+  }
+
+  .homePageTitle {
+    font-size: 6rem;
+  }
+
+  .Tour {
+    bottom: 5%;
+  }
+
+  .earthImage {
+    height: 250px;
+  }
+
+  /* Landing Page Section  */
+  .LandingPageSection {
+    height: 90vh;
+  }
+
+  .LandingPageSection section {
+    justify-content: center;
+  }
+
+  .EarthImage2 {
+    height: 300px;
+    left: -100px;
+    top: -120px;
+  }
+
+  @keyframes slide {
+    0% {
+      right: 0;
+      left: 100%;
+      transform: rotate(0deg);
+    }
+
+    100% {
+      right: 100%;
+      left: -100px;
+      transform: rotate(360deg);
+    }
+  }
+
+  .aboutTitle {
+    color: white;
+    font-size: 2rem;
+    margin-top: 150px;
+    padding: 0px 10px;
+  }
+
+  .aboutText {
+    color: white;
+    max-width: 350px;
+    z-index: 2;
+    animation: appear 8s;
+    padding: 0px 10px;
+  }
+
+  .hideDiv {
+    display: none;
+  }
+
+  .iconsDiv {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    margin: 0 auto;
+    width: 80%;
+    right: 200px;
+    animation: appear 12s, slideRight 20s infinite;
+  }
+
+  .proceedDiv {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(0%);
+    }
+
+    50% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  /* Projects Section */
+
+  .projectsSection {
+    height: 90vh;
+    min-height: auto;
+  }
+
+  .projectsContainer {
+    min-height: 100%;
+    gap: 16px;
+  }
+
+  .SunImage {
+    height: 100px;
+    animation: DecreaseSize 3s, rotate 60s infinite;
+    z-index: 3;
+  }
+
+  .marginDiv1 {
+    margin-top: -150px !important  ;
+  }
+
+  .marginDiv2 {
+    margin-bottom: -150px !important  ;
+  }
+
+  .ProjectsTitle {
+    font-size: 5rem;
+  }
+
+  .projectName {
+    font-size: 1rem;
+  }
+
+  /* Project Component section */
+  .ProjectComponentSection {
+    height: 100%;
+    padding: 20px 0px;
+  }
+
+  .ProjectComponentTitle {
+    font-size: 1rem;
+  }
+
+  .ContainerDiv {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .mainImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .smallImagesDiv img {
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .descriptionDiv h2 {
+    max-width: 700px;
+    font-size: 2rem;
+  }
+
+  .descriptionDiv p {
+    max-width: 500px;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Phones in Horizontal mode */
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .homePageTitle {
+    font-size: 5rem;
+  }
+
+  .titleDiv {
+    width: 100%;
+  }
+
+  .earthImage {
+    height: 250px;
+  }
+
+  .Tour {
+    bottom: 5%;
+  }
+
+  /* Landing Page */
+
+  .LandingPageSection {
+    height: 100%;
+    padding-block: 20px;
+  }
+
+  .EarthImage2 {
+    height: 300px;
+    left: -100px;
+    top: -120px;
+  }
+
+  @keyframes slide {
+    0% {
+      right: 0;
+      left: 100%;
+      transform: rotate(0deg);
+    }
+
+    100% {
+      right: 100%;
+      left: -100px;
+      transform: rotate(360deg);
+    }
+  }
+
+  .hideDiv {
+    display: none;
+  }
+
+  .aboutTitle {
+    font-size: 3rem;
+    margin-top: 150px;
+    padding: 0px 10px;
+  }
+
+  .aboutText {
+    max-width: 550px;
+    z-index: 2;
+    animation: appear 8s;
+    padding: 0px 10px;
+  }
+
+  .proceedDiv {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .btn1 {
+    margin-left: 10px;
+  }
+
+  /* Projects Section */
+
+  .projectsSection {
+    height: 110vh;
+  }
+
+  .projectsContainer {
+    min-height: 100%;
+    gap: 12px;
+  }
+
+  .SunImage {
+    height: 100px;
+    animation: DecreaseSize 3s, rotate 60s infinite;
+    z-index: 3;
+  }
+
+  .marginDiv1 {
+    margin-top: -150px !important  ;
+  }
+
+  .marginDiv2 {
+    margin-bottom: -150px !important  ;
+  }
+
+  .ProjectsTitle {
+    font-size: 8rem;
+  }
+
+  .projectName {
+    font-size: 1rem;
+  }
+
+  /* Project Component Section */
+
+  .ProjectComponentSection {
+    height: 100%;
+    padding: 20px 0px;
+  }
+
+  .ProjectComponentTitle {
+    font-size: 2rem;
+  }
+
+  .ContainerDiv {
+    gap: 40px;
+  }
+
+  .descriptionDiv h2 {
+    padding: 5px 20px;
+  }
+
+  .descriptionDiv p {
+    padding: 5px 20px;
+    max-width: none;
+  }
+}
+
+/* Media For Medium Devices */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Home Page Section */
+
+  .homePageTitle {
+    font-size: 6rem;
+  }
+
+  .titleDiv {
+    width: 100%;
+  }
+
+  /* Landing Page Section */
+
+  .LandingPageSection {
+    height: 100vh;
+  }
+
+  .EarthImage2 {
+    height: 800px;
+    left: -200px;
+    top: -120px;
+  }
+
+  @keyframes slide {
+    0% {
+      right: 0;
+      left: 100%;
+      transform: rotate(0deg);
+    }
+
+    100% {
+      right: 100%;
+      left: -200px;
+      transform: rotate(360deg);
+    }
+  }
+
+  .hideDiv {
+    display: none;
+  }
+
+  .aboutTitle {
+    font-size: 4rem;
+    margin-top: 450px;
+    padding: 0px 10px;
+  }
+
+  .aboutText {
+    max-width: 800px;
+    font-size: 1.5rem;
+    z-index: 2;
+    animation: appear 8s;
+    padding: 0px 10px;
+  }
+
+  .proceedDiv {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .proceedDiv button {
+    font-size: 1.5rem;
+  }
+
+  .btn1 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  .iconsDiv img {
+    height: 100px;
+  }
+
+  /* Projects Section */
+  .ProjectsTitle {
+    font-size: 11rem;
+  }
+
+  .projectName {
+    font-size: 1.6rem;
+  }
+
+  /* Project Component Section */
+
+  .ProjectComponentTitle {
+    font-size: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .mainImage {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .ProjectComponentTitle {
+    font-size: 2rem;
+  }
+
+  .ContainerDiv {
+    gap: 40px;
+  }
+
+  .descriptionDiv h2 {
+    font-size: 4rem;
+    padding: 5px 20px;
+    max-width: none;
+  }
+
+  .descriptionDiv p {
+    padding: 5px 20px;
+    max-width: none;
+    font-size: 1.5rem;
+  }
+
+  .btn1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  
+  /* Hero Page Section */
+    .homePageTitle {
+    font-size: 7.5rem;
+  }
+
+  .titleDiv {
+    width: 100%;
+  }
+
+  .Tour {
+    bottom: 5%;
+  }
+
+  /* Landing Page Section */
+
+  .EarthImage2 {
+    height: 800px;
+    top: -100px;
+    left: -250px;
+
+  }
+  .aboutTitle {
+    font-size: 3rem;
+    margin-top: 50px;
+
+  }
+  
+  @keyframes slide {
+    0% {
+      right: 0;
+      left: 100%;
+      transform: rotate(0deg);
+    }
+
+    100% {
+      right: 100%;
+      left: -250px;
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* Projects Section */
+
+  .SunImage {
+    height: 130px;
+    animation: DecreaseSize 3s, rotate 60s infinite;
+    z-index: 3;
+  }
+
+  .marginDiv1 {
+    margin-top: -250px !important  ;
+  }
+
+  .marginDiv2 {
+    margin-bottom: -250px !important  ;
+  }
+
+  .ProjectsTitle {
+    font-size: 12rem;
+  }
+
+  .projectName {
+    font-size: 1.2rem;
+  }
+
+  /* Project Component Section */
+
+  .ProjectComponentSection{
+    padding: 0px 20px;
+  }
+
+  .ProjectComponentTitle{
+    font-size: 3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .descriptionDiv h2{
+    color: white;
+    font-weight: 700;
+    max-width: 700px;
+    font-size: 2.5rem;
+  }
+
+  
+}
