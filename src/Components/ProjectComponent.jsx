@@ -65,11 +65,18 @@ export default function ProjectComponent() {
           <div className="d-flex  flex-column col-lg-6 col-12 descriptionDiv">
             <h2 className="text-start">{project.title}</h2>
             <p>{project.description}</p>
-            <button className="btn-primary">
+           <div className="d-flex flex-row align-items-center gap-2">
+           <button className="btn-primary col-6">
               <Link className="btn-primary" to={project.link}>
                 Check Website
               </Link>
             </button>
+            <button className="btn-primary col-6">
+              <Link className="btn-primary " to="/projects">
+                Return
+              </Link>
+            </button>
+           </div>
           </div>
         </div>
       </div>
