@@ -4,7 +4,7 @@ import "./Components/Header.css";
 import "./KeyFrames.css";
 import "./Media.css";
 import HomePage from "./Pages/HomePage";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";  // Import HashRouter
 import LandingPage from "./Pages/LandingPage";
 import Projects from "./Pages/Projects";
 import ProjectComponent from "./Components/ProjectComponent";
@@ -12,7 +12,7 @@ import NotFound from "./Components/NotFound";  // Import the NotFound component
 
 function App() {
   return (
-    <BrowserRouter basename="/FouadSmlajiPortfolio">
+    <HashRouter> {/* Use HashRouter instead of BrowserRouter */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/tour" element={<LandingPage />} />
@@ -21,7 +21,7 @@ function App() {
         {/* Catch-all route for undefined paths */}
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
