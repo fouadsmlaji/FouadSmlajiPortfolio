@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fouadsmlaji.github.io/FouadSmlajiPortfolio",
+  "homepage": "https://fouadsmlaji.github.io/FouadSmlajiPortfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
