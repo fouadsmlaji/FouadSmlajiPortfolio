@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       {/* {location.pathname === "/" && <Header />} */}
-      <BrowserRouter basename="/FouadSmlajiPortfolio/">
+      <BrowserRouter basename="/FouadSmlajiPortfolio">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/tour" element={<LandingPage />} />
