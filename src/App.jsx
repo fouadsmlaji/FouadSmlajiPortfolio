@@ -1,6 +1,5 @@
 import "./App.css";
 import "./Pages/HomePage.css";
-import "./Components/Header.css";
 import "./KeyFrames.css";
 import "./Media.css";
 import HomePage from "./Pages/HomePage";
