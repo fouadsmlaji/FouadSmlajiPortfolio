@@ -10,9 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-  ,
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@google/model-viewer": "^4.0.0",
     "bootstrap": "^5.3.3",
