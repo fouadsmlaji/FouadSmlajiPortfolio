@@ -4,7 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter as Router } from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
-  <Router>
+  <Router basename="/FouadSmlajiPortfolio">
     <App />
   </Router>
 )
