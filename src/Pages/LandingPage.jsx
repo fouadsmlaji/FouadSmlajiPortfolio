@@ -7,6 +7,7 @@ import Tailwind from "../../public/assets/images/Icons/Tailwind.svg";
 import Html from "../../public/assets/images/Icons/Html.svg";
 import Css from "../../public/assets/images/Icons/Css.svg";
 import Javascript from "../../public/assets/images/Icons/Javascript.svg";
+import Sass from"../../public/assets/images/Icons/Sass.svg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -40,6 +41,7 @@ export default function LandingPage() {
           <img src={Git} alt="" height={60} />
           <img src={Bootstrap} alt="" height={60} />
           <img src={Tailwind} alt="" height={60} />
+          <img src={Sass} alt="" height={60} />
           <img src={Html} alt="" height={60} />
           <img src={Css} alt="" height={60} />
           <img src={Javascript} alt="" height={60} />
