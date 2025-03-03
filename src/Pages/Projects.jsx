@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Mars1 from "../../public/assets/images/Mars.png";
 import Mars3 from "../../public/assets/images/Mars3.png";
 import Earth from "../../public/assets/images/Earth.png";
@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 
 export default function Projects() {
   const [rotateStyle, setRotateStyle] = useState(false);
+  const navigate = useNavigate();
 
   const planetRotateStyle = {
     animation: "rotate 80s infinite",
@@ -20,6 +21,10 @@ export default function Projects() {
   const textRotate = {
     animation: "reverseRotate 80s infinite",
   };
+
+  function Return(){
+    navigate("/tour");
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -130,6 +135,12 @@ export default function Projects() {
         </div>
       </div>
       <h1 className="ProjectsTitle">Projects</h1>
+      <div className="ReturnDiv">
+         <button className="proceed" onClick={() => {
+
+            Return();
+         }}>&#x2190; Return </button>
+        </div>
     </div>
   );
 }

@@ -94,6 +94,13 @@
     right: 10px;
   }
 
+  .ReturnDiv {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+
   @keyframes slideRight {
     0% {
       transform: translateX(0%);
@@ -249,6 +256,13 @@
     bottom: 10px;
     right: 10px;
   }
+  
+  .ReturnDiv {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
 
   .btn1 {
     margin-left: 10px;
@@ -375,7 +389,17 @@
     right: 20px;
   }
 
+  .ReturnDiv {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
   .proceedDiv button {
+    font-size: 1.5rem;
+  }
+
+  .ReturnDiv button {
     font-size: 1.5rem;
   }
 

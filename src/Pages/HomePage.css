@@ -115,6 +115,13 @@
   right: 50px;
 }
 
+.ReturnDiv{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+
 .proceed {
   background-color: transparent;
   border: solid white 1px;
