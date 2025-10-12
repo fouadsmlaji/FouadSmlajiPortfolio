@@ -36,7 +36,7 @@ const ProjectsData = [
     path: "/projects/3",
     num: "III",
     description:
-      "A custom software development company that understands your needs and saves you money. We will build your software using AI at the cheapest cost. You will also interact with real people who understand your business requirements so you don't have to waste your time.  **** HOSTED ON: tasking.dev ****",
+      "A custom software development company that understands your needs and saves you money. We will build your software using AI at the cheapest cost. You will also interact with real people who understand your business requirements so you don't have to waste your time. ",
     images: [
       "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image1.png",
       "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image2.png",
@@ -59,7 +59,7 @@ const ProjectsData = [
       "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/Image3.png",
       "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/Image4.png",
     ],
-    link: "https://github.com/Nicholass206/Alessandra-Parisi-Sito",
+    link: "https://www.alessandraparisi.it",
   },
   {
     id: "5",
@@ -76,7 +76,7 @@ const ProjectsData = [
     ],
     link: "https://github.com/fouadsmlaji/Foodz-Restaurant",
   },
-  { id: "6", title: "Project VI: My Holiday", path: "/projects/6", num: "VI", description:"A dedicated website designed for holiday apartment rentals, offering a seamless and user-friendly platform for travelers to find their ideal accommodations. The website showcases a variety of vacation apartments with detailed descriptions, high-quality images, and a list of amenities such as Wi-Fi, swimming pools, and more. It provides an intuitive search feature, allowing users to filter by location, price, and availability, ensuring a hassle-free booking experience. **** HOSTED ON: http://anai-51zrvrufnzdtvdbz7lhj.s3-website-ap-southeast-2.amazonaws.com/index.html ****",
+  { id: "6", title: "Project VI: My Holiday", path: "/projects/6", num: "VI", description:"A dedicated website designed for holiday apartment rentals, offering a seamless and user-friendly platform for travelers to find their ideal accommodations. The website showcases a variety of vacation apartments with detailed descriptions, high-quality images, and a list of amenities such as Wi-Fi, swimming pools, and more. It provides an intuitive search feature, allowing users to filter by location, price, and availability, ensuring a hassle-free booking experience. ",
     images: [
       "/FouadSmlajiPortfolio/assets/images/MyHolidayWebsite/image1.png",
       "/FouadSmlajiPortfolio/assets/images/MyHolidayWebsite/image2.png",
@@ -85,14 +85,14 @@ const ProjectsData = [
     ],
   link: "https://github.com/fouadsmlaji/Holiday-Apartments", 
    },
-  { id: "7", title: "Project VII: Puma Pro", path: "/projects/7", num: "VII", description:"The Puma Pro Property Management System showcase website is designed to present a cutting-edge solution for property owners, managers, and real estate professionals. This platform highlights Puma Pro’s powerful features, including tenant management, automated rent collection, maintenance tracking, and financial reporting, all integrated into an intuitive and user-friendly interface. With a sleek and modern design, the website provides an in-depth look at how Puma Pro streamlines property management tasks, enhances operational efficiency, and improves tenant experiences. ",
+  { id: "7", title: "Project VII: Lnabni Website", path: "/projects/7", num: "VII", description:"Le Nabni is a semi-governmental media platform established to serve as an institutional bridge connecting Syrian women inside and outside the country, while enhancing their presence in the humanitarian, cultural, and professional arenas.",
     images: [
-      "/FouadSmlajiPortfolio/assets/images/PumaProWebsite/image1.png",
-      "/FouadSmlajiPortfolio/assets/images/PumaProWebsite/image2.png",
-      "/FouadSmlajiPortfolio/assets/images/PumaProWebsite/image3.png",
-      "/FouadSmlajiPortfolio/assets/images/PumaProWebsite/image4.png",
+      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni1.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni2.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni3.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni4.webp",
     ],
-    link:"",
+    link:"https://lnabni.com",
    },
   { id: "8", title: "Project VIII: Minimal Digital Agency", path: "/projects/8", num: "VIII", description: "Minimal Digital Agency is a modern and streamlined platform dedicated to providing high-quality static web page creation services. Our team of skilled developers specializes in building fast, lightweight, and aesthetically pleasing websites that ensure a strong and professional online presence. We focus on efficiency, simplicity, and performance, delivering static websites that are secure, optimized, and maintenance-free. Whether you need a landing page, a business showcase, or a portfolio website, we create tailored solutions that meet your specific needs. ",
     images: [
