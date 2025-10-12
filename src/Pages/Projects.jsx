@@ -1,12 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
-import Mars1 from "../../public/assets/images/Mars.png";
-import Mars3 from "../../public/assets/images/Mars3.png";
-import Earth from "../../public/assets/images/Earth.png";
-import Moon from "../../public/assets/images/Moon.png";
-import Jupiter from "../../public/assets/images/Jupiter.png";
-import Mercury from "../../public/assets/images/Mercury.png";
-import Neptune from "../../public/assets/images/Neptune.png";
-import Jup from "../../public/assets/images/Jup.png";
+import Mars1 from "/assets/images/Mars.png";
+import Mars3 from "/assets/images/Mars3.png";
+import Earth from "/assets/images/Earth.png";
+import Moon from "/assets/images/Moon.png";
+import Jupiter from "/assets/images/Jupiter.png";
+import Mercury from "/assets/images/Mercury.png";
+import Neptune from "/assets/images/Neptune.png";
+import Jup from "/assets/images/Jup.png";
 
 import { useEffect, useState } from "react";
 

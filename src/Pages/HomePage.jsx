@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import EarthImage from '../../public/assets/images/EarthImage.png'
+import EarthImage from '/assets/images/EarthImage.png'
 import { useNavigate } from 'react-router-dom';
 
 export default function HomePage(){
