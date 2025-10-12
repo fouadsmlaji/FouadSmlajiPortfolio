@@ -23,7 +23,7 @@ const ProjectsData = [
     description:
       "A custom-designed website created for the talented photographer Majd Algaith, showcasing his extensive portfolio and stunning artistic photography. The website is tailored to highlight his creative vision and expertise, providing a visually engaging platform for clients and visitors to explore his work. It features an elegant layout, seamless navigation, and a gallery that beautifully displays his artwork, making it an ideal space for promoting his services and artistic achievements.",
     images: [
-      "/FouadSmlajiPortfolio/assets/images/MajdWebsite/image1.png",
+      "/FouadSmlajiPortfolio/assets/images/MajdWebsite/Image1.png",
       "/FouadSmlajiPortfolio/assets/images/MajdWebsite/image2.png",
       "/FouadSmlajiPortfolio/assets/images/MajdWebsite/image3.png",
       "/FouadSmlajiPortfolio/assets/images/MajdWebsite/image4.png",
@@ -38,10 +38,10 @@ const ProjectsData = [
     description:
       "A custom software development company that understands your needs and saves you money. We will build your software using AI at the cheapest cost. You will also interact with real people who understand your business requirements so you don't have to waste your time.  **** HOSTED ON: tasking.dev ****",
     images: [
-      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/image1.png",
-      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/image2.png",
-      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/image3.png",
-      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/image4.png",
+      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image1.png",
+      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image2.png",
+      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image3.png",
+      "/FouadSmlajiPortfolio/assets/images/TaskingDevWebsite/Image4.png",
     ],
     link: "https://github.com/fouadsmlaji/Task.Dev-website",
   },
@@ -56,8 +56,8 @@ const ProjectsData = [
     images: [
       "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/image1.png",
       "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/image2.png",
-      "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/image3.png",
-      "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/image4.png",
+      "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/Image3.png",
+      "/FouadSmlajiPortfolio/assets/images/AlessandraWebsite/Image4.png",
     ],
     link: "https://github.com/Nicholass206/Alessandra-Parisi-Sito",
   },
@@ -94,7 +94,7 @@ const ProjectsData = [
     ],
     link:"",
    },
-  { id: "8", title: "Project VIII: Minimal Digital Agency", path: "/projects/8", num: "VIII", description: "Minimal Digital Agency is a modern and streamlined platform dedicated to providing high-quality static web page creation services. Our team of skilled developers specializes in building fast, lightweight, and aesthetically pleasing websites that ensure a strong and professional online presence. We focus on efficiency, simplicity, and performance, delivering static websites that are secure, optimized, and maintenance-free. Whether you need a landing page, a business showcase, or a portfolio website, we create tailored solutions that meet your specific needs. **** HOSTED ON: https://midi.agency/ **** ",
+  { id: "8", title: "Project VIII: Minimal Digital Agency", path: "/projects/8", num: "VIII", description: "Minimal Digital Agency is a modern and streamlined platform dedicated to providing high-quality static web page creation services. Our team of skilled developers specializes in building fast, lightweight, and aesthetically pleasing websites that ensure a strong and professional online presence. We focus on efficiency, simplicity, and performance, delivering static websites that are secure, optimized, and maintenance-free. Whether you need a landing page, a business showcase, or a portfolio website, we create tailored solutions that meet your specific needs. ",
     images: [
       "/FouadSmlajiPortfolio/assets/images/MidiWebsite/image1.png",
       "/FouadSmlajiPortfolio/assets/images/MidiWebsite/image2.png",
