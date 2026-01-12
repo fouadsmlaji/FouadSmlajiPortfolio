@@ -86,6 +86,7 @@
   display: inline-block;
   z-index: 2;
   font-weight: 700;
+  margin-left: 20px;
 }
 
 .aboutText {
@@ -93,6 +94,8 @@
   max-width: 550px;
   z-index: 2;
   animation: appear 8s;
+  margin-left: 20px;
+  font-size: 1.3rem;
 }
 
 .iconsDiv {
@@ -103,6 +106,10 @@
   width: 80%;
   right: 0;
   animation: appear 12s, slideRight 20s infinite;
+}
+
+.expressIcon {
+  filter: invert(1);
 }
 
 .btn1 {
