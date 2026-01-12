@@ -71,8 +71,8 @@ const ProjectsData = [
     images: [
       "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/image1.png",
       "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/image2.png",
-      "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/image3.png",
-      "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/image4.png",
+      "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/Image3.png",
+      "/FouadSmlajiPortfolio/assets/images/FoodzWebsite/Image4.png",
     ],
     link: "https://github.com/fouadsmlaji/Foodz-Restaurant",
   },
@@ -87,10 +87,10 @@ const ProjectsData = [
    },
   { id: "7", title: "Project VII: Lnabni Website", path: "/projects/7", num: "VII", description:"Le Nabni is a semi-governmental media platform established to serve as an institutional bridge connecting Syrian women inside and outside the country, while enhancing their presence in the humanitarian, cultural, and professional arenas.",
     images: [
-      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni1.webp",
-      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni2.webp",
-      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni3.webp",
-      "/FouadSmlajiPortfolio/assets/images/LnbaniWebsite/lenabni4.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnabniWebsite/lenabni1.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnabniWebsite/lenabni2.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnabniWebsite/lenabni3.webp",
+      "/FouadSmlajiPortfolio/assets/images/LnabniWebsite/lenabni4.webp",
     ],
     link:"https://lnabni.com",
    },
@@ -102,6 +102,15 @@ const ProjectsData = [
       "/FouadSmlajiPortfolio/assets/images/MidiWebsite/image4.png",
     ],
     link: "https://github.com/fouadsmlaji/minimal-digital-agency"
+   },
+  { id: "9", title: "Project IX: SRT Freight Forwarding", path: "/projects/9", num: "IX", description: "SRT is a leading logistics and freight forwarding company dedicated to delivering reliable, efficient, and professional transportation solutions across the UAE and the wider region. We specialize in a full spectrum of services, including refrigerated land freight for temperature-sensitive goods, heavy-cargo transportation using top-grade trailers, and comprehensive import and export support for businesses of all sizes.",
+    images: [
+      "/FouadSmlajiPortfolio/assets/images/SRT/image1.png",
+      "/FouadSmlajiPortfolio/assets/images/SRT/image2.png",
+      "/FouadSmlajiPortfolio/assets/images/SRT/image3.png",
+      "/FouadSmlajiPortfolio/assets/images/SRT/image4.png",
+    ],
+    link: "https://strfreightforwarding.com"
    },
 ];
 

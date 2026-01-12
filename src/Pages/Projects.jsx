@@ -137,9 +137,13 @@ export default function Projects() {
       <h1 className="ProjectsTitle">Projects</h1>
       <div className="ReturnDiv">
          <button className="proceed" onClick={() => {
-
             Return();
          }}>&#x2190; Return </button>
+        </div>
+      <div className="proceedDiv">
+         <button className="proceed" onClick={() => {
+            navigate("/projects2");
+         }}>Next &#x2192;</button>
         </div>
     </div>
   );
