@@ -110,7 +110,7 @@ const ProjectsData = [
       "/FouadSmlajiPortfolio/assets/images/SRT/image3.png",
       "/FouadSmlajiPortfolio/assets/images/SRT/image4.png",
     ],
-    link: "https://strfreightforwarding.com"
+    link: "https://srtfreightforwarding.com"
    },
 ];
 
