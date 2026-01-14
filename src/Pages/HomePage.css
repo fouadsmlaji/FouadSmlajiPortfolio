@@ -106,6 +106,18 @@
   width: 80%;
   right: 0;
   animation: appear 12s, slideRight 20s infinite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.iconsDiv img {
+  height: 60px;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .expressIcon {

@@ -59,9 +59,6 @@ export default function LandingPage() {
               <p className="aboutText">
               Results-driven Software Engineer with over 3 years of experience in full-stack web development. Skilled in building responsive, scalable web applications using React.js, Vue.js, WordPress, and modern backend technologies such as Express.js. Experienced in improving website performance, enhancing SEO, and delivering high-quality client projects. Passionate about creating impactful digital experiences and optimizing development workflows.
               </p>
-              <button className="btn1" style={{marginLeft: "20px"}}>
-                <a href="/Fouad Smlaji Resume.pdf" download="Fouad_Smlaji_Resume.pdf">Resume</a>
-              </button>
 
             </div>
           </div>
