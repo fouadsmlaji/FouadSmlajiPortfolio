@@ -46,7 +46,7 @@ export default function Projects2() {
             style={{ zIndex: "3", marginRight:"-50px" }}
           >
             <Link to="/projects/9" className="projectDiv">
-              <img src={Mars3} alt="Project IX" className="SunImage" />
+              <img src={Mars3} alt="Project IX" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project IX
               </h2>
@@ -57,7 +57,7 @@ export default function Projects2() {
             style={{ marginTop: "-300px", zIndex: "3" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Earth} alt="Mars 1" className="SunImage" />
+              <img src={Earth} alt="Mars 1" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project X
               </h2>
@@ -68,7 +68,7 @@ export default function Projects2() {
             style={{ marginTop: "-300px", zIndex: "3" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Jup} alt="Mars 1" className="SunImage" />
+              <img src={Jup} alt="Mars 1" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XI
               </h2>
@@ -79,7 +79,7 @@ export default function Projects2() {
             style={{ zIndex: "3" , marginLeft:"-50px" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Mars1} alt="Mars 3" className="SunImage" />
+              <img src={Mars1} alt="Mars 3" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XII
               </h2>
@@ -93,7 +93,7 @@ export default function Projects2() {
             style={{ zIndex: "3" , marginRight:"-50px" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Moon} alt="Mars 3" className="SunImage" />
+              <img src={Moon} alt="Mars 3" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XIII
               </h2>
@@ -104,7 +104,7 @@ export default function Projects2() {
             style={{ marginBottom: "-300px", zIndex: "3" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Jupiter} alt="Mars 1" className="SunImage" />
+              <img src={Jupiter} alt="Mars 1" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XIV
               </h2>
@@ -115,7 +115,7 @@ export default function Projects2() {
             style={{ marginBottom: "-300px", zIndex: "3" }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Neptune} alt="Mars 1" className="SunImage" />
+              <img src={Neptune} alt="Mars 1" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XV
               </h2>
@@ -126,7 +126,7 @@ export default function Projects2() {
             style={{ zIndex: "3",  marginLeft:"-50px"  }}
           >
             <div className="projectDiv" style={{ cursor: "default" }}>
-              <img src={Mercury} alt="Mars 2" className="SunImage" />
+              <img src={Mercury} alt="Mars 2" className="SunImage" loading="lazy" decoding="async" />
               <h2 className="projectName" style={rotateStyle ? textRotate : {}}>
                 Project XVI
               </h2>

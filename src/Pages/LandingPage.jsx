@@ -36,19 +36,27 @@ export default function LandingPage() {
   return (
     <div className="LandingPageSection">
       <div className="LandingPageContainer">
-        <img src={EarthImage} alt="" className="EarthImage2" style={proceededStyle ?  style : {}}/>
+        <img 
+          src={EarthImage} 
+          alt="" 
+          className="EarthImage2" 
+          style={proceededStyle ?  style : {}}
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <div className="d-flex flex-row align-items-center justify-content-between iconsDiv " style={proceededStyle ?  fadeStyle : {}}>
-        <img src={Express} alt="" height={60} className="expressIcon" />
-        <img src={PostgreSQL} alt="" height={60} />
-          <img src={ReactIcon} alt="" height={60} />
-          <img src={Vue} alt="" height={60} />
-          <img src={Git} alt="" height={60} />
-          <img src={Bootstrap} alt="" height={60} />
-          <img src={Tailwind} alt="" height={60} />
-          <img src={Sass} alt="" height={60} />
-          <img src={Html} alt="" height={60} />
-          <img src={Css} alt="" height={60} />
-          <img src={Javascript} alt="" height={60} />
+        <img src={Express} alt="" height={60} className="expressIcon" loading="lazy" decoding="async" />
+        <img src={PostgreSQL} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={ReactIcon} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Vue} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Git} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Bootstrap} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Tailwind} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Sass} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Html} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Css} alt="" height={60} loading="lazy" decoding="async" />
+          <img src={Javascript} alt="" height={60} loading="lazy" decoding="async" />
           
         </div>
         <div className="d-flex flex-row align-items-center justify-content-center row w-100" style={proceededStyle ?  fadeStyle : {}}>

@@ -26,10 +26,19 @@ export default function HomePage(){
                     <h1 className="homePageTitle" >Fouad </h1>
                     <h1 className="homePageTitle" > Smlaji</h1> 
                 </div>
-                <img src={EarthImage} alt="" style={earthstyle} className='earthImage'onClick={() => {
+                <img 
+                  src={EarthImage} 
+                  alt="" 
+                  style={earthstyle} 
+                  className='earthImage'
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  onClick={() => {
                     setEarthStyle(Earthstyle);
                     EarthFunction()
-                }}  />
+                  }}  
+                />
                 <span className='Tour'>CLICK FOR A TOUR</span>
             </div>
         </div>

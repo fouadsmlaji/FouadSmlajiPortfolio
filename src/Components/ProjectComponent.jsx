@@ -54,12 +54,36 @@ export default function ProjectComponent() {
         >
           <div className="d-flex flex-column align-items-center justify-content-center col-lg-6 col-12 gap-2">
             <SlideshowLightbox>
-              <img src={project.images[0]} alt="" className="mainImage" />
+              <img 
+                src={project.images[0]} 
+                alt="" 
+                className="mainImage" 
+                loading="lazy"
+                decoding="async"
+              />
             </SlideshowLightbox>
             <SlideshowLightbox className="d-flex flex-row  smallImagesDiv row  ">
-              <img src={project.images[1]} alt="" className="col-4 p-0" />
-              <img src={project.images[2]} alt="" className="col-4 p-0" />
-              <img src={project.images[3]} alt="" className="col-4 p-0" />
+              <img 
+                src={project.images[1]} 
+                alt="" 
+                className="col-4 p-0" 
+                loading="lazy"
+                decoding="async"
+              />
+              <img 
+                src={project.images[2]} 
+                alt="" 
+                className="col-4 p-0" 
+                loading="lazy"
+                decoding="async"
+              />
+              <img 
+                src={project.images[3]} 
+                alt="" 
+                className="col-4 p-0" 
+                loading="lazy"
+                decoding="async"
+              />
             </SlideshowLightbox>
           </div>
           <div className="d-flex  flex-column col-lg-6 col-12 descriptionDiv">
